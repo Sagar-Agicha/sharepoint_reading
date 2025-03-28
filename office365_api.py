@@ -4,11 +4,11 @@ from office365.runtime.auth.user_credential import UserCredential
 from office365.sharepoint.files.file import File
 import datetime
 
-USERNAME = ""
-PASSWORD = ""
-SHAREPOINT_SITE = ""
-SHAREPOINT_SITE_NAME = ""
-SHAREPOINT_DOC = ""
+USERNAME = "SPADMIN"
+PASSWORD = "brained@123"
+SHAREPOINT_SITE = "http://sharepoint/sites/finance"
+SHAREPOINT_SITE_NAME = "finance"
+SHAREPOINT_DOC = "Shared Documents"
 
 class SharePoint:
     def _auth(self):
